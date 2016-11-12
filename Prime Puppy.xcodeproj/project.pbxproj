@@ -15,6 +15,16 @@
 		3BE75C4E1DD70F30007E58C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE75C4C1DD70F30007E58C5 /* Main.storyboard */; };
 		3BE75C501DD70F30007E58C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE75C4F1DD70F30007E58C5 /* Assets.xcassets */; };
 		3BE75C531DD70F30007E58C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE75C511DD70F30007E58C5 /* LaunchScreen.storyboard */; };
+		3BE75C5F1DD70F89007E58C5 /* puppy1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BE75C5A1DD70F89007E58C5 /* puppy1.png */; };
+		3BE75C601DD70F89007E58C5 /* puppy2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BE75C5B1DD70F89007E58C5 /* puppy2.png */; };
+		3BE75C611DD70F89007E58C5 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BE75C5C1DD70F89007E58C5 /* bg.png */; };
+		3BE75C711DD74642007E58C5 /* buttonpup.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BE75C701DD74642007E58C5 /* buttonpup.png */; };
+		3BE75C731DD7490D007E58C5 /* EncryptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE75C721DD7490D007E58C5 /* EncryptViewController.swift */; };
+		3BE75C751DD7491A007E58C5 /* DecryptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE75C741DD7491A007E58C5 /* DecryptViewController.swift */; };
+		3BE75C771DD7A2B7007E58C5 /* gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BE75C761DD7A2B7007E58C5 /* gradient.png */; };
+		3BE75C791DD7A50E007E58C5 /* MessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE75C781DD7A50E007E58C5 /* MessageComposer.swift */; };
+		3BE75C801DD7B1C9007E58C5 /* bone1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BE75C7E1DD7B1C9007E58C5 /* bone1.png */; };
+		3BE75C811DD7B1C9007E58C5 /* bone2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BE75C7F1DD7B1C9007E58C5 /* bone2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +38,16 @@
 		3BE75C4F1DD70F30007E58C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BE75C521DD70F30007E58C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BE75C541DD70F30007E58C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BE75C5A1DD70F89007E58C5 /* puppy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puppy1.png; sourceTree = "<group>"; };
+		3BE75C5B1DD70F89007E58C5 /* puppy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puppy2.png; sourceTree = "<group>"; };
+		3BE75C5C1DD70F89007E58C5 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		3BE75C701DD74642007E58C5 /* buttonpup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonpup.png; sourceTree = "<group>"; };
+		3BE75C721DD7490D007E58C5 /* EncryptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncryptViewController.swift; sourceTree = "<group>"; };
+		3BE75C741DD7491A007E58C5 /* DecryptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecryptViewController.swift; sourceTree = "<group>"; };
+		3BE75C761DD7A2B7007E58C5 /* gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient.png; sourceTree = "<group>"; };
+		3BE75C781DD7A50E007E58C5 /* MessageComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageComposer.swift; sourceTree = "<group>"; };
+		3BE75C7E1DD7B1C9007E58C5 /* bone1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bone1.png; sourceTree = "<group>"; };
+		3BE75C7F1DD7B1C9007E58C5 /* bone2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bone2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,16 +81,34 @@
 			isa = PBXGroup;
 			children = (
 				3BE75C421DD70F30007E58C5 /* AppDelegate.swift */,
+				3BE75C781DD7A50E007E58C5 /* MessageComposer.swift */,
 				3BE75C441DD70F30007E58C5 /* GameScene.sks */,
 				3BE75C461DD70F30007E58C5 /* Actions.sks */,
 				3BE75C481DD70F30007E58C5 /* GameScene.swift */,
 				3BE75C4A1DD70F30007E58C5 /* GameViewController.swift */,
 				3BE75C4C1DD70F30007E58C5 /* Main.storyboard */,
+				3BE75C721DD7490D007E58C5 /* EncryptViewController.swift */,
+				3BE75C741DD7491A007E58C5 /* DecryptViewController.swift */,
 				3BE75C4F1DD70F30007E58C5 /* Assets.xcassets */,
+				3BE75C821DD7B8CC007E58C5 /* images */,
 				3BE75C511DD70F30007E58C5 /* LaunchScreen.storyboard */,
 				3BE75C541DD70F30007E58C5 /* Info.plist */,
 			);
 			path = "Prime Puppy";
+			sourceTree = "<group>";
+		};
+		3BE75C821DD7B8CC007E58C5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3BE75C5A1DD70F89007E58C5 /* puppy1.png */,
+				3BE75C5B1DD70F89007E58C5 /* puppy2.png */,
+				3BE75C5C1DD70F89007E58C5 /* bg.png */,
+				3BE75C7E1DD7B1C9007E58C5 /* bone1.png */,
+				3BE75C7F1DD7B1C9007E58C5 /* bone2.png */,
+				3BE75C701DD74642007E58C5 /* buttonpup.png */,
+				3BE75C761DD7A2B7007E58C5 /* gradient.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,11 +171,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE75C601DD70F89007E58C5 /* puppy2.png in Resources */,
+				3BE75C771DD7A2B7007E58C5 /* gradient.png in Resources */,
 				3BE75C4E1DD70F30007E58C5 /* Main.storyboard in Resources */,
+				3BE75C711DD74642007E58C5 /* buttonpup.png in Resources */,
+				3BE75C611DD70F89007E58C5 /* bg.png in Resources */,
 				3BE75C451DD70F30007E58C5 /* GameScene.sks in Resources */,
+				3BE75C811DD7B1C9007E58C5 /* bone2.png in Resources */,
 				3BE75C501DD70F30007E58C5 /* Assets.xcassets in Resources */,
+				3BE75C801DD7B1C9007E58C5 /* bone1.png in Resources */,
 				3BE75C531DD70F30007E58C5 /* LaunchScreen.storyboard in Resources */,
 				3BE75C471DD70F30007E58C5 /* Actions.sks in Resources */,
+				3BE75C5F1DD70F89007E58C5 /* puppy1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +195,10 @@
 			files = (
 				3BE75C491DD70F30007E58C5 /* GameScene.swift in Sources */,
 				3BE75C4B1DD70F30007E58C5 /* GameViewController.swift in Sources */,
+				3BE75C731DD7490D007E58C5 /* EncryptViewController.swift in Sources */,
+				3BE75C791DD7A50E007E58C5 /* MessageComposer.swift in Sources */,
 				3BE75C431DD70F30007E58C5 /* AppDelegate.swift in Sources */,
+				3BE75C751DD7491A007E58C5 /* DecryptViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
