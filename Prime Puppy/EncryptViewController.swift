@@ -33,8 +33,19 @@ class EncryptViewController: UIViewController, UITextFieldDelegate{
 
     @IBAction func encryptButton(_ sender: Any) {
         
-        resultText.text = String(encrypt(message: Int(inputText.text!)!, e: e, n: n))
-        UserDefaults.standard.set(resultText.text, forKey: "encryption")
+        if let text = inputText.text, !text.isEmpty
+        {
+            if (Int(text) != nil) {
+                resultText.text = String(encrypt(message: Int(inputText.text!)!, e: e, n: n))
+                UserDefaults.standard.set(resultText.text, forKey: "encryption")
+            }
+            else {
+                resultText.text = ("You need to enter an integer")
+            }
+        }
+        else {
+            resultText.text = ("You have to enter a score!")
+        }
         
     }
         

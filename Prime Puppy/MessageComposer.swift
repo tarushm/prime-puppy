@@ -34,9 +34,9 @@ class MessageComposer: NSObject, MFMessageComposeViewControllerDelegate {
         let phiObject = UserDefaults.standard.object(forKey: "phi")
         let encryptionObject = UserDefaults.standard.object(forKey: "encryption")
         
-        if let highScore = highScoreObject as? Int {
+        if let _ = highScoreObject as? Int, let n = nObject as? String, let e = eObject as? String, let p1 = p1Object as? String, let p2 = p2Object as? String, let phi = phiObject as? String, let encryption = encryptionObject as? String {
 
-            messageComposeVC.body = "Hey! My encrypted high score in Prime Puppy is \(encryptionObject!). The two primes I used were \(p1Object!) and \(p2Object!). The exponent I chose was \(eObject!) and the product and totient of those two numbers are \(nObject!) and \(phiObject!), respectively. Can you figure out what my score was?"
+            messageComposeVC.body = "Hey! My encrypted high score in Prime Puppy is \(encryption). The two primes I used were \(p1) and \(p2). The exponent I chose was \(e) and the product and totient of those two numbers are \(n) and \(phi), respectively. Can you figure out what my score was?"
         }
         
         else {
